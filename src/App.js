@@ -9,13 +9,13 @@ import { useState } from 'react';
 //import Button from 'react-bootstrap/Button';
 
 function App() {
-
+ 
   const [pic, showPic] = useState(false);
   return (
 
-    <div style={{ backgroundColor: '#2266ff', width: '2048px', height: '1005px' }}>
+    <div >
       <div className="pt-5 pb-5 text-center">
-        <Button variant="outline-dark" size='lg' onClick={() => showPic(!pic)}>Press me to cherish joy</Button>
+        <Button variant="outline-dark" size='lg' onClick={() => showPic(!pic)}>Press me</Button>
       </div>
 
       <div>
